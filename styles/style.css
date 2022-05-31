@@ -49,3 +49,22 @@ h2 {
 h3 {
     font-size: 34px;
 }
+
+pre {
+    background-color: #FEC62E;
+    color: #000000;
+}
+
+div.hero {
+    /* background-image: linear-gradient(to top, #212325,  rgba(255, 255, 255, 0) ), url(../assets/images/pattern.svg); */
+    /* background-image: linear-gradient(3.36deg, #212325 -63.62%, rgba(255, 255, 255, 0) 43.49%), url(../assets/images/pattern.svg); */
+    background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent), url(../assets/images/pattern.svg);
+    /* background-repeat: repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    height: 350px;
+    width: 100vw;
+}
+
+
+
