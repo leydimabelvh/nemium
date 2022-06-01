@@ -1,0 +1,90 @@
+:root {
+    /* Variables del Proyecto */
+
+    /* Color */
+    --gray40: #212121;
+    --gray30: #212429;
+    --gray20: #424242;
+    --gray10: #616161;
+}
+
+body {
+    color: var(--gray40);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: var(--gray40);
+}
+
+header {
+    font-size: 14px;
+    color: var(--gray10);
+}
+
+header a {
+    color: var(--gray10);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: var(--gray40);
+}
+
+nav details summary {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 32px;
+
+}
+
+h3 {
+    font-size: 24px;
+}
+
+pre {
+    background-color: #FEC62E;
+    color: #000000;
+}
+
+div.hero {
+    /* background-image: linear-gradient(to top, #212325,  rgba(255, 255, 255, 0) ), url(../assets/images/pattern.svg); */
+    /* background-image: linear-gradient(3.36deg, #212325 -63.62%, rgba(255, 255, 255, 0) 43.49%), url(../assets/images/pattern.svg); */
+    background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent), url(../assets/images/pattern.svg);
+    /* background-repeat: repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    height: 350px;
+    width: 100vw;
+}
+
+.section-content {
+    counter-reset: titleList;
+}
+
+.section-content h3 {
+    counter-increment: titleList;;
+}
+
+.section-content h3::before {
+    content: counter(titleList) ". ";
+    
+}
+
+.section-content h3::after {
+    content: '';
+    display: block;
+    width: 192px;
+    height: 4px;
+    background-color: var(--gray20);
+}
