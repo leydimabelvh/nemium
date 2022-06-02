@@ -136,6 +136,7 @@ blockquote {
     margin-left: 16px;
     margin-top: 32px;
     margin-bottom: 64px;
+    font-size: 24px;
 }
 
 /* Terminology */
@@ -185,6 +186,15 @@ pre {
 
 }
 
+/* Footer */
+.footer-text {
+    background-color: var(--gray30);
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    padding: 48px 0px;
+}
 
 
 
