@@ -52,6 +52,18 @@ div.hero {
     /* width: 100vw; */
 }
 
+/* Header */
+.header-container {
+
+}
+.header-wrapper {
+    max-width: 208px;
+    margin: auto;
+}
+.header-content{
+    padding: 0px 20px;
+}
+
 /* Content */
 header {
     font-size: 14px;
@@ -77,6 +89,18 @@ details {
 }
 .content-list li{
     margin-bottom: 16px;
+}
+
+/* Main */
+.main-container {
+
+}
+.main-wrapper {
+    max-width: 902px;
+    margin: auto;
+}
+.main-content {
+    padding: 0px 20px;
 }
 
 /* Blog introduction */
