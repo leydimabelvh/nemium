@@ -1,7 +1,7 @@
 * {
-    margin:0px;
-    padding: 0px;
-    box-sizing: border-box;
+    /* margin:0px; */
+    /* padding: 0px; */
+    /* box-sizing: border-box; */
 }
 
 :root {
@@ -12,6 +12,9 @@
     --gray30: #212429;
     --gray20: #424242;
     --gray10: #616161;
+}
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -54,7 +57,6 @@ div.hero {
 
 /* Header */
 .header-container {
-
 }
 .header-wrapper {
     max-width: 208px;
@@ -86,6 +88,7 @@ details {
 .content-subtitle {
     font-weight: 700;
     margin-bottom: 16px;
+    line-height: 24px;
 }
 .content-list li{
     margin-bottom: 16px;
@@ -93,7 +96,6 @@ details {
 
 /* Main */
 .main-container {
-
 }
 .main-wrapper {
     max-width: 902px;
@@ -124,17 +126,22 @@ details {
     counter-reset: titleList;
 }
 .section-content h3 {
-    counter-increment: titleList;;
+    counter-increment: titleList;
+    position: relative;
+    padding-bottom: 8px;
 }
 .section-content h3::before {
     content: counter(titleList) ". ";    
 }
 .section-content h3::after {
     content: '';
-    display: block;
-    width: 192px;
+    display: inline-block;
+    width: 80px;
     height: 4px;
     background-color: var(--gray20);
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 /* Setup */
@@ -223,7 +230,6 @@ pre {
 .box-model-img {
     width: 100%;
     max-width: 902px;
-
 }
 
 /* Footer */
