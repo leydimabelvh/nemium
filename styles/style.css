@@ -57,13 +57,24 @@ div.hero {
 
 /* Header */
 .header-container {
+    background-color: teal;
+    position: sticky;
+    top: 0px;
+    /* width: 30%; */
 }
 .header-wrapper {
     max-width: 208px;
     margin: auto;
+    position: relative;
 }
 .header-content{
     padding: 0px 20px;
+    width: 208px;
+    position: absolute;
+    top: 0;
+    left: -577px;
+    /* left: -232px; add (232+42+303) */
+    /* left: 116px; */
 }
 
 /* Content */
@@ -96,6 +107,8 @@ details {
 
 /* Main */
 .main-container {
+    /* right: 116px; */
+    /* width: 70%; */
 }
 .main-wrapper {
     max-width: 902px;
@@ -129,6 +142,8 @@ details {
     counter-increment: titleList;
     position: relative;
     padding-bottom: 8px;
+    /* position: sticky; */
+    /* top: 0; */
 }
 .section-content h3::before {
     content: counter(titleList) ". ";    
