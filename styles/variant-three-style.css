@@ -1,0 +1,263 @@
+* {
+    /* margin:0px; */
+    /* padding: 0px; */
+    /* box-sizing: border-box; */
+}
+
+:root {
+    /* Variables del Proyecto */
+
+    /* Color */
+    --gray40: #212121;
+    --gray30: #212429;
+    --gray20: #424242;
+    --gray10: #616161;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--gray40);
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+/* Globales */
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+p {
+    font-size: 16px;
+}
+hr {
+    margin: 64px 0px;
+}
+
+/* Hero (decoration) */
+div.hero {
+    background-image: linear-gradient(274.51deg, rgba(74, 0, 224, 0.6) 5%, rgba(142, 45, 226, 0.5) 130.61%), url(../assets/images/pattern-two.svg);
+    /* background-repeat: repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    height: 350px;
+    /* width: 100vw; */
+}
+
+/* Header */
+.header-container {
+    background-color: teal;
+    position: sticky;
+    top: 0px;
+    /* width: 30%; */
+}
+.header-wrapper {
+    max-width: 208px;
+    margin: auto;
+    position: relative;
+}
+.header-content{
+    padding: 0px 20px;
+    width: 208px;
+    position: absolute;
+    top: 0;
+    left: -577px;
+    /* left: -232px; add (232+42+303) */
+    /* left: 116px; */
+}
+
+/* Content */
+header {
+    font-size: 14px;
+    color: var(--gray10);
+}
+header a {
+    color: var(--gray10);
+    text-decoration: none;
+}
+header a:hover {
+    color: var(--gray40);
+}
+.content-title {
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+details {
+    margin-bottom: 24px;
+}
+.content-subtitle {
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+.content-list li{
+    margin-bottom: 16px;
+}
+
+/* Main */
+.main-container {
+    /* right: 116px; */
+    /* width: 70%; */
+}
+.main-wrapper {
+    max-width: 902px;
+    margin: auto;
+}
+.main-content {
+    padding: 0px 20px;
+}
+
+/* Blog introduction */
+.blog-title {
+    font-size: 60px;
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+.blog-description {
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+.blog-subtitle {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+/* Sections */
+.section-content {
+    counter-reset: titleList;
+}
+.section-content h3 {
+    counter-increment: titleList;
+    position: relative;
+    padding-bottom: 8px;
+    /* position: sticky; */
+    /* top: 0; */
+}
+.section-content h3::before {
+    content: counter(titleList) ". ";    
+}
+.section-content h3::after {
+    content: '';
+    display: inline-block;
+    width: 80px;
+    height: 4px;
+    background-color: var(--gray20);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* Setup */
+/* .setup-img {
+    margin-top: 40px;
+    margin-bottom: 16px;
+} */
+.setup-title {
+    margin-top: 16px;
+    margin-bottom: 24px;;
+}
+.setup-description {
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+/* #github > p {
+    margin-bottom: 0px;
+} */
+.setup-description:last-of-type {
+    margin-bottom: 0px;
+} 
+blockquote {
+    margin-top: 32px;
+    margin-bottom: 64px;
+    padding-left: 16px;
+    border-left: 4px solid var(--gray40);
+    /* font-family: 'Roboto', sans-serif; */
+}
+.blockquote-content {
+    color: var(--gray20);
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+.blockquote-author {
+    color: var(--gray10);
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 16px;
+}
+.blockquote-author::before {
+    content: '—';
+}
+
+/* Terminology */
+.terminology-title {
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+.terminology-description {
+    margin-top: 16px;;
+    margin-bottom: 16px;
+}
+.terminology-img {
+    width: 100%;
+    max-width: 902px;
+}
+pre {
+    background-color: #FEC62E;
+    color: #000000;
+    padding: 40px;
+    max-width: 902px;
+    max-height: 344px;
+    font-size: 16px;
+    margin: 0px;;
+}
+
+/* Box Model */
+/* #box-model {
+    margin-top: 220px ;
+} */
+.box-model-title {
+    margin-top: 40px;
+    margin-bottom: 24px;;
+}
+.box-model-description {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.box-model-composition {
+    line-height: 24px;
+}
+.box-model-properties li{
+    margin-bottom: 16px;
+}
+.box-model-img {
+    width: 100%;
+    max-width: 902px;
+}
+
+/* Footer */
+.footer-text {
+    background-color: var(--gray30);
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    padding: 48px 0px;
+}
+
+
+
+
+
+
+
