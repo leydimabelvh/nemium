@@ -86,7 +86,39 @@ header a {
     text-decoration: none;
     color: #FFF;
 }
-header a:hover {
+
+/* Variants of project */
+.variant-content {
+    /* background-color: red; */
+    /* position: relative; */
+    /* top: 0; */
+}
+.variant-title {
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+header .variant-list a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    padding-left: 8px;
+    font-weight: 500;
+    
+}
+header .variant-list a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+
+}
+
+/* Content */
+.content {
+    /* background-color: #FEC62E; */
+    position: sticky;
+    top: 0;
+}
+header .content-list a:hover {
     color: var(--gray40);
 }
 .content-title {
