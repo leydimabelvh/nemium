@@ -52,7 +52,7 @@ hr {
 .header-container {
     color: var(--white10);
     position: sticky;
-    top: 0px;
+    top: 64px;
     /* width: 30%; */
 }
 .header-wrapper {
@@ -87,7 +87,7 @@ header a {
     /* top: 0; */
 }
 .variant-title {
-    margin-top: 64px;
+    /* margin-top: 64px; */
     margin-bottom: 16px;
     color: var(--white10);
     font-size: 14px;
