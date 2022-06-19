@@ -8,55 +8,49 @@
     /* Variables del Proyecto */
 
     /* Color */
-    --gray40: #212121;
-    --gray30: #212429;
-    --gray20: #424242;
-    --gray10: #616161;
+    --blue20:#232946;
+    --blue10: #B8C1EC;
+    --rose20: #D4939D;
+    --rose10: #EEBBC3;
+    --white20: #FFFFFF;
+    --white10: #FFFFFE;
 }
+
 html {
     scroll-behavior: smooth;
 }
-
 body {
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
+    color: var(--white10);
+    font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    background-color: #232946;
+    background-color: var(--blue20);
 }
 
 /* Globales */
 h1 {
-    font-size: 60px;
-    font-weight: 400;
+    font-size: 64px;
+    font-weight: 700;
 }
 h2 {
-    font-size: 32px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 700;
 }
 h3 {
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 32px;
+    font-weight: 600;
 }
 p {
-    font-size: 16px;
+    font-size: 17px;
+    color: var(--blue10);
 }
 hr {
     margin: 64px 0px;
-}
-
-/* Hero (decoration) */
-div.hero {
-    background-image: linear-gradient(274.51deg, rgba(74, 0, 224, 0.6) 5%, rgba(142, 45, 226, 0.5) 130.61%), url(../assets/images/pattern-two.svg);
-    /* background-repeat: repeat; */
-    /* background-position: center; */
-    /* background-size: cover; */
-    height: 350px;
-    /* width: 100vw; */
+    border: 1px solid rgba(97, 97, 97, 0.2);
 }
 
 /* Header */
 .header-container {
-    color: #FFF;
+    color: var(--white10);
     position: sticky;
     top: 0px;
     /* width: 30%; */
@@ -76,26 +70,27 @@ div.hero {
     /* left: 116px; */
 }
 
-/* Content */
+/* General content */
 header {
     font-size: 14px;
-    color: var(--gray10);
+    color: var(--white10);
 }
 header a {
-    color: var(--gray10);
+    color: var(--blue10);
     text-decoration: none;
-    color: #FFF;
 }
 
 /* Variants of project */
 .variant-content {
-    /* background-color: red; */
+    /* background-color: red;  */
     /* position: relative; */
     /* top: 0; */
 }
 .variant-title {
     margin-top: 64px;
     margin-bottom: 16px;
+    color: var(--white10);
+    font-size: 14px;
 }
 header .variant-list a {
     display: block;
@@ -108,7 +103,7 @@ header .variant-list a {
 }
 header .variant-list a:hover {
     background-color: #000000;
-    color: #FFFFFF;
+    color: var(--white20);
 
 }
 
@@ -119,22 +114,29 @@ header .variant-list a:hover {
     top: 0;
 }
 header .content-list a:hover {
-    color: var(--gray40);
+    color: var(--white10);
 }
 .content-title {
     margin-top: 64px;
     margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--white10);
 }
 details {
     margin-bottom: 24px;
 }
 .content-subtitle {
-    font-weight: 700;
     margin-bottom: 16px;
     line-height: 24px;
+    font-weight: 700;
 }
 .content-list li{
     margin-bottom: 16px;
+    color: var(--blue10);
+}
+.content-list li:hover{
+    color: var(--white10);
 }
 
 /* Main */
@@ -185,7 +187,7 @@ details {
     display: inline-block;
     width: 80px;
     height: 4px;
-    background-color: var(--gray20);
+    background-color: var(--white10);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -214,7 +216,8 @@ blockquote {
     margin-top: 32px;
     margin-bottom: 64px;
     padding-left: 16px;
-    border-left: 4px solid var(--gray40);
+    border-left: 4px solid var(--white10);
+    background-color: #D4939D;
     /* font-family: 'Roboto', sans-serif; */
 }
 .blockquote-content {
@@ -222,14 +225,13 @@ blockquote {
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 16px;
-    color: #FFF;
+    color: var(--blue20);
 }
 .blockquote-author {
-    color: var(--gray10);
+    color: var(--blue20);
     font-size: 24px;
     line-height: 32px;
     margin-top: 16px;
-    color: #FFF;
 }
 .blockquote-author::before {
     content: '—';
@@ -249,13 +251,15 @@ blockquote {
     max-width: 902px;
 }
 pre {
-    background-color: #FEC62E;
-    color: #000000;
+    background-color: var(--blue20);
+    color: var(--white10);
     padding: 40px;
     max-width: 902px;
     max-height: 344px;
-    font-size: 16px;
     margin: 0px;;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* Box Model */
@@ -272,18 +276,27 @@ pre {
 }
 .box-model-composition {
     line-height: 24px;
+    color: var(--blue10);
 }
 .box-model-properties li{
     margin-bottom: 16px;
+    color: var(--blue10);
 }
 .box-model-img {
     width: 100%;
     max-width: 902px;
 }
 
+.text-email-address {
+    color: var(--white10);
+}
+.email-address {
+    color: var(--rose10);
+}
+
 /* Footer */
 .footer-text {
-    background-color: var(--gray30);
+    background-color: var(--white10);
     color: #FFFFFF;
     font-size: 32px;
     font-weight: 400;
