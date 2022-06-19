@@ -145,7 +145,7 @@ details {
     /* width: 70%; */
 }
 .main-wrapper {
-    max-width: 902px;
+    max-width: 636px;
     margin: auto;
 }
 .main-content {
@@ -209,28 +209,30 @@ details {
 /* #github > p {
     margin-bottom: 0px;
 } */
-.setup-description:last-of-type {
+/* .setup-description:last-of-type {
     margin-bottom: 0px; 
-} 
+}  */
 blockquote {
-    margin-top: 32px;
+    margin-top: 58px;
     margin-bottom: 64px;
-    padding-left: 16px;
-    border-left: 4px solid var(--white10);
+    margin-left: 0px;
+    padding: 24px;
+    border-radius: 8px;
     background-color: #D4939D;
 }
 .blockquote-content {
-    color: var(--gray20);
+    color: var(--blue20);
     font-size: 24px;
     line-height: 32px;
+    margin-top: 0px;
     margin-bottom: 16px;
-    color: var(--blue20);
 }
 .blockquote-author {
     color: var(--blue20);
     font-size: 24px;
     line-height: 32px;
     margin-top: 16px;
+    margin-bottom: 0px;
 }
 .blockquote-author::before {
     content: '—';
