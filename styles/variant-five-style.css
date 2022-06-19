@@ -249,7 +249,7 @@ blockquote {
 }
 .terminology-img {
     width: 100%;
-    max-width: 902px;
+    max-width: 636px;
 }
 pre {
     background-color: var(--blue20);
@@ -285,7 +285,7 @@ pre {
 }
 .box-model-img {
     width: 100%;
-    max-width: 902px;
+    max-width: 636px;
 }
 
 .text-email-address {
