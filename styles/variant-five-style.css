@@ -210,7 +210,7 @@ details {
     margin-bottom: 0px;
 } */
 .setup-description:last-of-type {
-    margin-bottom: 0px;
+    margin-bottom: 0px; 
 } 
 blockquote {
     margin-top: 32px;
@@ -218,7 +218,6 @@ blockquote {
     padding-left: 16px;
     border-left: 4px solid var(--white10);
     background-color: #D4939D;
-    /* font-family: 'Roboto', sans-serif; */
 }
 .blockquote-content {
     color: var(--gray20);
