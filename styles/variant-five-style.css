@@ -258,9 +258,27 @@ pre {
 /* #box-model {
     margin-top: 220px ;
 } */
+.box-model-headline {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+h3.box-model-headline {
+    counter-reset: titleList;
+}
+h3.box-model-headline {
+    counter-increment: titleList;
+    position: relative;
+}
+h3.box-model-headline::before {
+    content:none;    
+}
+
 .box-model-title {
     margin-top: 40px;
-    margin-bottom: 24px;;
+    margin-bottom: 24px;
 }
 .box-model-description {
     margin-top: 16px;
