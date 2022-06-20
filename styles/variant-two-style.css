@@ -1,0 +1,241 @@
+:root {
+    /* Variables del Proyecto */
+
+    /* Color */
+    --gray30: #251F24;
+    --gray20: #424242;
+    --gray10: #3A3539;
+
+    --white20: #A5A3A5;
+    --white10: #FFFFFF;
+        
+    --blue10: #157EFB;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: var(--white10);
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--gray30);
+}
+
+/* Globales */
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--white20);
+}
+hr {
+    border: 1px solid rgba(97, 97, 97, 0.2);
+}
+
+/* Hero */
+div.hero {
+    background-image: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);;
+    /* background-repeat: repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    block-size: 350px;
+    inline-size: 100%;
+}
+
+/* Header */
+.header-container {
+    color: var(--white10);
+}
+.header-wrapper {
+}
+.header-content{
+}
+
+/* General content */
+header {
+    font-size: 14px;
+    color: var(--white10);
+}
+header a {
+    color: var(--white20);
+    text-decoration: none;
+}
+
+/* Variants of project */
+.variant-content {
+    /* background-color: red;  */
+}
+.variant-title {
+    color: var(--white10);
+    font-size: 14px;
+}
+header .variant-list a {
+    line-height: 40px;
+    font-weight: 500;    
+}
+header .variant-list a:hover {
+    background-color: #000000;
+    color: var(--white10);
+
+}
+
+/* Content */
+.content {
+    /* background-color: #FEC62E; */
+}
+header .content-list a:hover {
+    color: var(--white10);
+}
+.content-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--white10);
+}
+details {
+}
+.content-subtitle {
+    line-height: 24px;
+    font-weight: 700;
+}
+.content-list li{
+    color: var(--white20);
+}
+.content-list li:hover{
+    color: var(--white10);
+}
+
+/* Main */
+.main-container {
+
+}
+.main-wrapper {
+}
+.main-content {
+}
+
+/* Blog introduction */
+.blog-title {
+    font-size: 60px;
+}
+.blog-description {
+    font-size: 16px;
+}
+.blog-subtitle {
+}
+
+/* Sections */
+.section-content {
+    counter-reset: titleList;
+}
+.section-content h3 {
+    counter-increment: titleList;
+    position: relative;
+}
+.section-content h3::before {
+    content: counter(titleList) ". ";    
+}
+
+/* Setup */
+/* .setup-img {
+} */
+.setup-title {
+}
+.setup-description {
+}
+#github > p {
+}
+/* .setup-description:last-of-type {
+}  */
+blockquote {
+    background-color: var(--gray10);
+}
+.blockquote-content {
+    color: var(--white10);
+    font-size: 24px;
+    line-height: 32px;
+}
+.blockquote-author {
+    color: var(--white10);
+    font-size: 24px;
+    line-height: 32px;
+}
+.blockquote-author::before {
+    content: '—';
+}
+
+/* Terminology */
+.terminology-title {
+}
+.terminology-description {
+}
+.terminology-img {
+}
+pre {
+    background-color: var(--gray10);
+    color: var(--white10);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Box Model */
+/* #box-model {
+    margin-block-start: 220px ;
+} */
+.box-model-headline {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h3.box-model-headline {
+    counter-reset: titleList;
+}
+h3.box-model-headline {
+    counter-increment: titleList;
+    position: relative;
+}
+h3.box-model-headline::before {
+    content:none;    
+}
+
+.box-model-title {
+}
+.box-model-description {
+}
+.box-model-composition {
+    line-height: 24px;
+    color: var(--white20);
+}
+.box-model-properties li{
+    color: var(--white20);
+}
+.box-model-img {
+}
+
+.text-email-address {
+    color: var(--white20);
+}
+.email-address {
+    color: var(--blue10);
+}
+
+/* Footer */
+.footer-text {
+    background-color: var(--white10);
+    color: var(--gray30);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+}
