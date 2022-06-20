@@ -59,6 +59,7 @@ div.hero {
     color: var(--white10);
 }
 .header-wrapper {
+    margin: auto;
 }
 .header-content{
 }
@@ -78,17 +79,18 @@ header a {
     /* background-color: red;  */
 }
 .variant-title {
+    margin-block-end: 16px;
     color: var(--white10);
     font-size: 14px;
 }
 header .variant-list a {
+    display: block;
     line-height: 40px;
     font-weight: 500;    
 }
 header .variant-list a:hover {
     background-color: #000000;
     color: var(--white10);
-
 }
 
 /* Content */
@@ -111,6 +113,7 @@ details {
 }
 .content-list li{
     color: var(--white20);
+    margin-block-start: 16px;
 }
 .content-list li:hover{
     color: var(--white10);
@@ -118,7 +121,6 @@ details {
 
 /* Main */
 .main-container {
-
 }
 .main-wrapper {
 }
@@ -128,11 +130,14 @@ details {
 /* Blog introduction */
 .blog-title {
     font-size: 60px;
+    margin-block-start: 80px;
+    margin-block-end: 40px;
 }
 .blog-description {
     font-size: 16px;
 }
 .blog-subtitle {
+    margin-block-end: 40px;
 }
 
 /* Sections */
@@ -151,15 +156,22 @@ details {
 /* .setup-img {
 } */
 .setup-title {
+    margin-block-start: 16px;
+    margin-block-end: 16px;
 }
 .setup-description {
+    margin-block-start: 16px;
+    margin-block-end: 40px;
 }
 #github > p {
+    margin-block-end: 0px;
 }
 /* .setup-description:last-of-type {
 }  */
 blockquote {
     background-color: var(--gray10);
+    margin-block-start: 80px;
+    margin-block-end: 63px;
 }
 .blockquote-content {
     color: var(--white10);
@@ -177,10 +189,16 @@ blockquote {
 
 /* Terminology */
 .terminology-title {
+    margin-block-start: 40px;
+    margin-block-end: 16px;
 }
 .terminology-description {
+    margin-block-start: 16px;
+    margin-block-end: 16px;
 }
 .terminology-img {
+    margin-block-start: 16px;
+    margin-block-end: 16px;
 }
 pre {
     background-color: var(--gray10);
@@ -188,6 +206,8 @@ pre {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 24px;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
 }
 
 /* Box Model */
@@ -211,8 +231,12 @@ h3.box-model-headline::before {
 }
 
 .box-model-title {
+    margin-block-start: 40px;
+    margin-block-end: 16px;
 }
 .box-model-description {
+    margin-block-start: 16px;
+    margin-block-end: 16px;
 }
 .box-model-composition {
     line-height: 24px;
