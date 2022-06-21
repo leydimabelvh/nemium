@@ -126,7 +126,6 @@ details {
 }
 .main-content {
 }
-
 /* Blog introduction */
 .blog-title {
     font-size: 60px;
@@ -163,25 +162,33 @@ details {
     margin-block-start: 16px;
     margin-block-end: 40px;
 }
-#github > p {
+#github + p {
     margin-block-end: 0px;
 }
 /* .setup-description:last-of-type {
 }  */
 blockquote {
     background-color: var(--gray10);
-    margin-block-start: 80px;
+    margin-block-start: 32px;
     margin-block-end: 63px;
+    margin-inline-start: 0px;
+    padding: 24px;;
+    max-inline-size: 636px;
+    box-sizing: border-box;
 }
 .blockquote-content {
     color: var(--white10);
     font-size: 24px;
     line-height: 32px;
+    margin-block-start: 0px;
+    margin-block-end: 16px;
 }
 .blockquote-author {
     color: var(--white10);
     font-size: 24px;
     line-height: 32px;
+    margin-block-start: 16px;
+    margin-block-end: 0px;
 }
 .blockquote-author::before {
     content: '—';
@@ -208,6 +215,10 @@ pre {
     line-height: 24px;
     margin-block-start: 16px;
     margin-block-end: 16px;
+    padding: 40px;
+    border-radius: 8px;
+    max-inline-size: 636px;
+    box-sizing: border-box;
 }
 
 /* Box Model */
