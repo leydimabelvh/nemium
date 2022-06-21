@@ -123,16 +123,23 @@ details {
 .main-container {
 }
 .main-wrapper {
+    max-inline-size: 636px;
+    margin-inline: auto;
+    margin-block: 0px;
 }
 .main-content {
+    padding-inline: 20px;
+    padding-block: 0.1px;
+
 }
 /* Blog introduction */
 .blog-title {
     font-size: 60px;
-    margin-block-start: 80px;
-    margin-block-end: 40px;
+    margin-block-start: 40px;
+    margin-block-end: 16px;
 }
 .blog-description {
+    margin-block-start: 16px;
     font-size: 16px;
 }
 .blog-subtitle {
@@ -171,9 +178,9 @@ blockquote {
     background-color: var(--gray10);
     margin-block-start: 32px;
     margin-block-end: 63px;
-    margin-inline-start: 0px;
+    margin-inline: 0px;
     padding: 24px;;
-    max-inline-size: 636px;
+    max-inline-size: 596px;
     box-sizing: border-box;
 }
 .blockquote-content {
@@ -206,6 +213,7 @@ blockquote {
 .terminology-img {
     margin-block-start: 16px;
     margin-block-end: 16px;
+    max-inline-size: 596px;
 }
 pre {
     background-color: var(--gray10);
@@ -217,7 +225,7 @@ pre {
     margin-block-end: 16px;
     padding: 40px;
     border-radius: 8px;
-    max-inline-size: 636px;
+    max-inline-size: 596px;
     box-sizing: border-box;
 }
 
@@ -257,6 +265,7 @@ h3.box-model-headline::before {
     color: var(--white20);
 }
 .box-model-img {
+    max-inline-size: 596px;
 }
 
 .text-email-address {
