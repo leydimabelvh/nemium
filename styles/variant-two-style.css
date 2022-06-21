@@ -60,6 +60,7 @@ div.hero {
 }
 .header-wrapper {
     margin: auto;
+    max-inline-size: 208px;
 }
 .header-content{
 }
@@ -86,7 +87,7 @@ header a {
 header .variant-list a {
     display: block;
     line-height: 40px;
-    font-weight: 500;    
+    font-weight: 500;  
 }
 header .variant-list a:hover {
     background-color: #000000;
