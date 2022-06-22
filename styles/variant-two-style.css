@@ -271,10 +271,54 @@ h3.box-model-headline::before {
     max-inline-size: 596px;
 }
 
+/* Slider in box-model*/
+.slider {
+    /* border: 1px solid red; */
+}
+.slider-container {
+    display: block;
+    white-space: nowrap;
+    /* overflow: auto; */
+    overflow: hidden;
+    font-size: 0px;
+    scroll-behavior: smooth;
+}
+.slider-slide {
+    /* display: inline-block; */
+    /* width: 100%; */
+}
+.slider-slide iframe {
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+.slider-bullet-container {
+    text-align: center;
+    margin-block-start: 10px;
+}
+.slider-bullet {
+    background-color: var(--gray20);
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    border-radius: 50%;
+}
+.slider-bullet:active {
+    background-color: var(--white10);
+}
+
+
+
+
+
+
+
 .text-email-address {
     color: var(--white20);
 }
-.email-address {
+.email-address{
     color: var(--blue10);
 }
 
