@@ -118,16 +118,20 @@ header .content-list a:hover {
     font-weight: 700;
     color: var(--white10);
     margin-block-start: 104px;
+    margin-block-end: 16px;
 }
 details {
+    margin-block-end: 24px;
 }
 .content-subtitle {
+    margin-block-end: 16px;
     line-height: 24px;
     font-weight: 700;
 }
 .content-list li{
     color: var(--white20);
     margin-block-start: 16px;
+    margin-block-end: 16px;
 }
 .content-list li:hover{
     color: var(--white10);
