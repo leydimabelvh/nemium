@@ -283,9 +283,8 @@ h3.box-model-headline::before {
 .box-model-properties li{
     color: var(--white20);
     line-height: 24px;
-}
-.box-model-img {
-    max-inline-size: 596px;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
 }
 
 /* Slider in box-model*/
