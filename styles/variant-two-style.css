@@ -228,6 +228,7 @@ pre {
     border-radius: 8px;
     max-inline-size: 596px;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 /* Box Model */
