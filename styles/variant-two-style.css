@@ -19,6 +19,7 @@ body {
     color: var(--white10);
     font-family: 'Nunito', sans-serif;
     background-color: var(--gray30);
+    margin: 0px;
 }
 
 /* Globales */
