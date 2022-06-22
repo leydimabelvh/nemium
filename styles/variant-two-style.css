@@ -57,12 +57,18 @@ div.hero {
 /* Header */
 .header-container {
     color: var(--white10);
+    position: sticky;
+    top:0px
 }
 .header-wrapper {
     margin: auto;
     max-inline-size: 208px;
+    position: relative;
 }
 .header-content{
+    position: absolute;
+    inline-size: 208px;
+    left: -440px; /*(208*2 = 416 + 24: margin)*/
 }
 
 /* General content */
@@ -80,6 +86,7 @@ header a {
     /* background-color: red;  */
 }
 .variant-title {
+    margin-block-start: 40px;
     margin-block-end: 16px;
     color: var(--white10);
     font-size: 14px;
@@ -105,6 +112,7 @@ header .content-list a:hover {
     font-size: 14px;
     font-weight: 700;
     color: var(--white10);
+    margin-block-start: 104px;
 }
 details {
 }
