@@ -10,8 +10,12 @@
     /* Color */
     --blue20:#232946;
     --blue10: #B8C1EC;
+
+    --black20: #42424233;
+
     --rose20: #D4939D;
     --rose10: #EEBBC3;
+
     --white20: #FFFFFF;
     --white10: #FFFFFE;
 }
@@ -137,7 +141,7 @@ details {
     color: var(--blue10);
 }
 .content-list li:hover{
-    color: var(--white10);
+    color: var(--white20);
 }
 
 /* Main */
@@ -292,10 +296,45 @@ h3.box-model-headline::before {
     margin-bottom: 16px;
     color: var(--blue10);
 }
-.box-model-img {
-    width: 100%;
-    max-width: 636px;
+
+/* Slider in box-model*/
+.slider {
+    /* border: 1px solid red; */
 }
+.slider-container {
+    display: block;
+    white-space: nowrap;
+    /* overflow: auto; */
+    overflow: hidden;
+    font-size: 0px;
+    scroll-behavior: smooth;
+}
+.slider-slide {
+    /* display: inline-block; */
+    /* width: 100%; */
+}
+.slider-slide iframe {
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+.slider-bullet-container {
+    text-align: center;
+    margin-block-start: 10px;
+}
+.slider-bullet {
+    background-color: var(--black20);
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    border-radius: 50%;
+}
+.slider-bullet:active {
+    background-color: var(--white10);
+}
+
 
 .text-email-address {
     color: var(--white10);
