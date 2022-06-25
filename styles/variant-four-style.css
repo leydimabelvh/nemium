@@ -55,7 +55,6 @@ div.hero {
 
 /* Header */
 .header-container {
-    background-color: teal;
     position: sticky;
     top: 0px;
     /* width: 30%; */
@@ -71,8 +70,7 @@ div.hero {
     position: absolute;
     top: 0;
     left: -577px;
-    /* left: -232px; add (232+42+303) */
-    /* left: 116px; */
+    left: 556px; /*(232 + 42 + 282: random calculation)*/
 }
 
 /* Content */
@@ -84,7 +82,37 @@ header a {
     color: var(--gray10);
     text-decoration: none;
 }
-header a:hover {
+
+/* Variants of project */
+.variant-content {
+    /* position: relative; */
+    /* top: 0; */
+}
+.variant-title {
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+header .variant-list a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    padding-left: 8px;
+    font-weight: 500;
+    
+}
+header .variant-list a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+
+}
+
+/* Content */
+.content {
+    position: sticky;
+    top: 0;
+}
+header .content-list a:hover {
     color: var(--gray40);
 }
 .content-title {
