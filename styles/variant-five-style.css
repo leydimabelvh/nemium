@@ -335,12 +335,35 @@ h3.box-model-headline::before {
     background-color: var(--white10);
 }
 
-
+/*Questions to email*/
 .text-email-address {
     color: var(--white10);
 }
 .email-address {
     color: var(--rose10);
+}
+
+/* Form */
+.newsletter-form input {
+    background-color: var(--blue20);
+    color: var(--rose10);
+    inline-size: 100%;
+    border: 1px solid var(--white10);
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding-inline: 16px;
+    padding-block: 12px;
+    margin-block-end: 24px;
+    font-size: 16px;
+}
+.newsletter-form ::-webkit-input-placeholder {
+    color: var(--white10);
+}
+.newsletter-form input[type="submit"] {
+    color: var(--blue20);
+    background-color: var(--rose10);
+    border: none;
+    font-weight: 700;
 }
 
 /* Footer */
