@@ -8,10 +8,12 @@
     /* Variables del Proyecto */
 
     /* Color */
-    --black20:#000000;
-    --black10: #00000080;
+    --black30: #000000;
+    --black20: #00000080;
+    --black10: #00000033;
 
-    --gray10: #545454
+    --gray20: #545454;
+    --gray10: #616161;
 
     --blue20: #5551FF;
     --blue10: #ABAAF6;
@@ -35,21 +37,25 @@ body {
 h1 {
     font-size: 60px;
     font-weight: 700;
+    color: var(--black30);
 }
 h2 {
     font-size: 32px;
     font-weight: 400;
+    color: var(--black30);
 }
 h3 {
     font-size: 24px;
     font-weight: 400;
+    color: var(--black30);
 }
 p {
     font-size: 16px;
+    color: var(--gray20);
 }
 hr {
-    margin: 64px 0px;
-    border: 1px solid #00000033;;
+    margin: 40px 0px;
+    border: 1px solid var(--black10);
 }
 
 /* Hero (decoration) */
@@ -59,13 +65,14 @@ div.hero {
     /* background-position: center; */
     /* background-size: cover; */
     height: 350px;
-    /* width: 100vw; */
+    width: 100%;
 }
 
 /* Header */
 .header-container {
     position: sticky;
     top: 0px;
+    /* font-size: 14px; */
     /* width: 30%; */
 }
 .header-wrapper {
@@ -78,7 +85,6 @@ div.hero {
     width: 208px;
     position: absolute;
     top: 0;
-    left: -577px;
     left: 556px; /*(232 + 42 + 282: random calculation)*/
 }
 
@@ -94,6 +100,7 @@ header a {
 
 /* Variants of project */
 .variant-content {
+    color: var(--gray10);
     /* position: relative; */
     /* top: 0; */
 }
@@ -111,18 +118,27 @@ header .variant-list a {
     
 }
 header .variant-list a:hover {
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: var(--black30);
+    color: var(--white10);
 
 }
 
 /* Content */
-.content {
+/* .content {
     position: sticky;
     top: 0;
+    color: var(--black30);
 }
-header .content-list a:hover {
-    color: var(--gray40);
+header .content-list a {
+    display: block;
+}
+header .content-list a, header .content-list li {
+    color: var(--black30);
+}
+header .content-list a:hover, header .content-list li:hover {
+    color: var(--white10);
+    background-color: var(--blue20);
+    border-radius: 4px;
 }
 .content-title {
     margin-top: 64px;
@@ -138,6 +154,44 @@ details {
 }
 .content-list li{
     margin-bottom: 16px;
+} */
+
+
+/* Content */
+.content {
+    position: sticky;
+    top: 0;
+    color: var(--black30);
+}
+.content-list {
+    counter-reset: numberList;
+}
+header .content-list a {
+    color: var(--black30);
+    display: block;
+    padding: 8px;
+
+    counter-increment: numberList;
+}
+header .content-list a:hover {
+    color: var(--white10);
+    background-color: var(--blue20);
+    border-radius: 4px;
+}
+header .content-list a::before {
+    content: counter(numberList) ". ";
+}
+.content-title {
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+details {
+    margin-bottom: 24px;
+}
+.content-subtitle {
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 24px;
 }
 
 /* Main */
@@ -148,9 +202,11 @@ details {
 .main-wrapper {
     max-width: 902px;
     margin: auto;
+
+    padding: 0px 20px;
 }
 .main-content {
-    padding: 0px 20px;
+    /* padding: 0px 20px; */
     text-align: center;
 }
 
@@ -166,7 +222,7 @@ details {
     margin-bottom: 64px;
 }
 .blog-subtitle {
-    margin-top: 80px;
+    margin-top: 64px;
     margin-bottom: 40px;
 }
 
@@ -177,14 +233,13 @@ details {
 .section-content h3 {
     counter-increment: titleList;
     position: relative;
-    padding-bottom: 8px;
     /* position: sticky; */
     /* top: 0; */
 }
 .section-content h3::before {
     content: counter(titleList) ". ";    
 }
-.section-content h3::after {
+/* .section-content h3::after {
     content: '';
     display: inline-block;
     width: 80px;
@@ -193,7 +248,7 @@ details {
     position: absolute;
     left: 0;
     bottom: 0;
-}
+} */
 
 /* Setup */
 /* .setup-img {
