@@ -307,13 +307,19 @@ blockquote {
 }
 pre {
     text-align: left;
-    background-color: #FEC62E;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--white10);
     color: #000000;
     padding: 40px;
     max-width: 902px;
-    max-height: 344px;
     font-size: 16px;
     margin: 0px;;
+    overflow: auto;
+
+    border: 8px solid var(--blue20);
+    border-radius: 8px;
+    box-shadow: -10px 10px 0px var(--blue10);
+
 }
 
 /* Box Model */
