@@ -8,10 +8,18 @@
     /* Variables del Proyecto */
 
     /* Color */
-    --gray40: #212121;
-    --gray30: #212429;
-    --gray20: #424242;
-    --gray10: #616161;
+    --black20:#000000;
+    --black10: #00000080;
+
+    --gray10: #545454
+
+    --blue20: #5551FF;
+    --blue10: #ABAAF6;
+
+    --purple20: #8E2DE2;
+    --purple10: #8E2DE280;
+
+    --white10: #FFFFFF;
 }
 html {
     scroll-behavior: smooth;
@@ -26,7 +34,7 @@ body {
 /* Globales */
 h1 {
     font-size: 60px;
-    font-weight: 400;
+    font-weight: 700;
 }
 h2 {
     font-size: 32px;
@@ -41,6 +49,7 @@ p {
 }
 hr {
     margin: 64px 0px;
+    border: 1px solid #00000033;;
 }
 
 /* Hero (decoration) */
@@ -142,6 +151,7 @@ details {
 }
 .main-content {
     padding: 0px 20px;
+    text-align: center;
 }
 
 /* Blog introduction */
@@ -198,12 +208,12 @@ details {
     margin-top: 16px;
     margin-bottom: 40px;
 }
-/* #github > p {
+#github + p {
     margin-bottom: 0px;
-} */
-.setup-description:last-of-type {
+}
+/* .setup-description:last-of-type {
     margin-bottom: 0px;
-} 
+}  */
 blockquote {
     margin-top: 32px;
     margin-bottom: 64px;
@@ -241,6 +251,7 @@ blockquote {
     max-width: 902px;
 }
 pre {
+    text-align: left;
     background-color: #FEC62E;
     color: #000000;
     padding: 40px;
@@ -254,6 +265,9 @@ pre {
 /* #box-model {
     margin-top: 220px ;
 } */
+.box-model-content {
+    text-align: left;
+}
 .box-model-title {
     margin-top: 40px;
     margin-bottom: 24px;;
