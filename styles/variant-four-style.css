@@ -85,7 +85,7 @@ div.hero {
     width: 208px;
     position: absolute;
     top: 0;
-    left: 556px; /*(232 + 42 + 282: random calculation)*/
+    left: 566px; /*(232 + 42 + 282: random + 10:visual appearance calculation)*/
 }
 
 /* Content */
@@ -233,6 +233,7 @@ details {
 .section-content h3 {
     counter-increment: titleList;
     position: relative;
+    margin-bottom: 16px;
     /* position: sticky; */
     /* top: 0; */
 }
@@ -270,20 +271,23 @@ details {
     margin-bottom: 0px;
 }  */
 blockquote {
+    margin: auto;
     margin-top: 32px;
     margin-bottom: 64px;
     padding-left: 16px;
-    border-left: 4px solid var(--gray40);
-    /* font-family: 'Roboto', sans-serif; */
+    padding-right: 16px;
+    border-left: 4px solid var(--blue20);
+    text-align: left;
+    max-width: 633px;
 }
 .blockquote-content {
-    color: var(--gray20);
+    color: var(--black30);
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 16px;
 }
 .blockquote-author {
-    color: var(--gray10);
+    color: var(--black30);
     font-size: 24px;
     line-height: 32px;
     margin-top: 16px;
@@ -358,6 +362,9 @@ h3.box-model-headline::before {
 }
 .box-model-properties li{
     margin-bottom: 16px;
+}
+.box-model-properties li::marker{
+    color: var(--blue20);
 }
 .box-model-img {
     width: 100%;
