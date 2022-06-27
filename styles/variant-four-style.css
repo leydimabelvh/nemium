@@ -264,6 +264,9 @@ details {
     margin-top: 16px;
     margin-bottom: 40px;
 }
+.setup-description span {
+    color: var(--blue20);
+}
 #github + p {
     margin-bottom: 0px;
 }
