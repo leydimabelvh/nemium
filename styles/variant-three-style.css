@@ -24,7 +24,7 @@ html {
 }
 
 body {
-    color: var(--gray50);
+    color: var(--gray20);
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
@@ -153,17 +153,17 @@ details {
 /* Blog introduction */
 .blog-title {
     font-size: 40px;
-    margin-top: 64px;
+    margin-top: 40px;
     margin-bottom: 16px;
 }
 .blog-description {
     font-size: 16px;
     margin-top: 16px;
-    margin-bottom: 64px;
+    margin-bottom: 40px;
 }
 .blog-subtitle {
     font-size: 27px;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -213,13 +213,13 @@ blockquote {
 }
 .blockquote-content {
     color: var(--gray20);
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     margin-bottom: 16px;
 }
 .blockquote-author {
     color: var(--gray10);
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     margin-top: 16px;
 }
@@ -337,11 +337,11 @@ h3.box-model-headline::before {
 
 /*Questions to email*/
 .text-email-address {
-    color: var(--black30);
+    /* color: var(--black30); */
     text-align: left;
 }
 .email-address {
-    color: var(--gray20);
+    color: var(--black10);
 }
 
 /* Form */
@@ -448,9 +448,28 @@ footer {
         margin-top: 64px;
     }
 
+    /* Blog introduction */
+    .blog-title {
+        font-size: 60px; 
+        margin-top: 64px;
+    }
+    .blog-description {
+        margin-bottom: 64px;
+    }
+    .blog-subtitle {
+        font-size: 32px;
+        margin-top: 64px;
+    }
+
     /* Setup */
     .setup-img {
         width: initial;
+    }
+    .blockquote-content {
+        font-size: 24px;
+    }
+    .blockquote-author {
+        font-size: 24px;
     }
 
     /* Form */
@@ -505,6 +524,12 @@ footer {
     /* Setup */
     .setup-img {
         width: 64px;
+    }
+    .blockquote-content {
+        font-size: 22px;
+    }
+    .blockquote-author {
+        font-size: 22px;
     }
 
     /* Form */
