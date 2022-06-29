@@ -31,15 +31,15 @@ body {
 
 /* Globales */
 h1 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 400;
 }
 h2 {
-    font-size: 32px;
+    font-size: 27px;
     font-weight: 400;
 }
 h3 {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 400;
 }
 p {
@@ -152,7 +152,7 @@ details {
 
 /* Blog introduction */
 .blog-title {
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 64px;
     margin-bottom: 16px;
 }
@@ -162,6 +162,7 @@ details {
     margin-bottom: 64px;
 }
 .blog-subtitle {
+    font-size: 27px;
     margin-top: 80px;
     margin-bottom: 40px;
 }
