@@ -202,6 +202,7 @@ details {
 blockquote {
     margin-top: 32px;
     margin-bottom: 64px;
+    margin-left: 0px;
     padding-left: 16px;
     border-left: 4px solid var(--gray50);
     /* font-family: 'Roboto', sans-serif; */
