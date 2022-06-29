@@ -185,6 +185,9 @@ details {
     margin-top: 40px;
     margin-bottom: 16px;
 } */
+.setup-img {
+    width: 48px;
+}
 .setup-title {
     margin-top: 16px;
     margin-bottom: 24px;;
@@ -444,6 +447,11 @@ footer {
         margin-top: 64px;
     }
 
+    /* Setup */
+    .setup-img {
+        width: initial;
+    }
+
     /* Form */
     .newsletter-form {
         width: 70%;
@@ -483,6 +491,19 @@ footer {
     /* Variants of project */
     header .variant-list a:hover {
         max-width: 305px;
+    }
+
+    /* Blog introduction */
+    .blog-title {
+        font-size: 50px; 
+    }
+    .blog-subtitle {
+        font-size: 30px;
+    }
+
+    /* Setup */
+    .setup-img {
+        width: 64px;
     }
 
     /* Form */
