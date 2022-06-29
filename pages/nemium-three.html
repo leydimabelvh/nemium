@@ -16,29 +16,41 @@
     <header class="header-container">
         <div class="header-wrapper">
             <div class="header-content">
-                <p class="content-title">CONTENIDO</p>
-                <nav>
-                    <details open>
-                        <summary class="content-subtitle">Setup</summary>
-                        <ol class="content-list">
-                            <li><a href="#google-chrome">Google Chrome</a></li>
-                            <li><a href="#vsc">Visual Studio Code</a></li>
-                            <li><a href="#figma">Figma</a></li>
-                            <li><a href="#github">GitHub</a></li>
-                        </ol>
-                    </details>
-                    <details open>
-                        <summary class="content-subtitle">Conceptos esenciales del Desarrollo Web</summary>
-                        <ol class="content-list">
-                            <li><a href="#html">Qué es HTML</a></li>
-                            <li><a href="#etiquetas">Etiquetas</a></li>
-                            <li><a href="#dom">DOM</a></li>
-                            <li><a href="#semantica">Semántica</a></li>
-                            <li><a href="#atributos">Atributos</a></li>
-                            <li><a href="#css">Qué es CSS</a></li>
-                        </ol>
-                    </details>
-                </nav>
+                <div class="variant-content">
+                    <p class="variant-title">VARIANTES DEL PROYECTO</p>
+                    <div class="variant-list">
+                        <a href="../index.html" target="_blank">Nemium A</a>
+                        <a href="../pages/nemium-two.html" target="_blank">Nemium B</a>
+                        <a href="../pages/nemium-three.html" target="_blank">Nemium C</a>
+                        <a href="../pages/nemium-four.html" target="_blank">Nemium D</a>
+                        <a href="../pages/nemium-five.html" target="_blank">Nemium E</a>                    
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="content-title">CONTENIDO</p>
+                    <nav>
+                        <details open>
+                            <summary class="content-subtitle">Setup</summary>
+                            <ol class="content-list">
+                                <li><a href="#google-chrome">Google Chrome</a></li>
+                                <li><a href="#vsc">Visual Studio Code</a></li>
+                                <li><a href="#figma">Figma</a></li>
+                                <li><a href="#github">GitHub</a></li>
+                            </ol>
+                        </details>
+                        <details open>
+                            <summary class="content-subtitle">Conceptos esenciales del Desarrollo Web</summary>
+                            <ol class="content-list">
+                                <li><a href="#html">Qué es HTML</a></li>
+                                <li><a href="#etiquetas">Etiquetas</a></li>
+                                <li><a href="#dom">DOM</a></li>
+                                <li><a href="#semantica">Semántica</a></li>
+                                <li><a href="#atributos">Atributos</a></li>
+                                <li><a href="#css">Qué es CSS</a></li>
+                            </ol>
+                        </details>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -67,7 +79,7 @@
                         <img class="setup-img" src="../assets/images/visual-studio-code.png" alt="Logo de Visual Studio Code" title="Logo de Google Chrome">
                         <h3 class="setup-title" id="vsc">Visual Studio Code</h3>
                         <p class="setup-description">
-                            Visual Studio Code es el editor de texto más popular y potente del mercado actualmente, su fácil uso y la capacidad de extenderlo por medio de plugins lo hace el complemento perfecto para cualquier programador sin importar el lenguaje en el que se desemvuelva.
+                            Visual Studio Code es el editor de texto más popular y potente del mercado actualmente, su fácil uso y la capacidad de extenderlo por medio de plugins lo hace el complemento perfecto para cualquier programador sin importar el lenguaje en el que se desenvuelva.
                         </p>    
                     </article>
                     
@@ -101,17 +113,17 @@
                             Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del contenido.
                         </p>
                         <pre>
-        &lt;!DOCTYPE html&gt;
-        &lt;html lang=&quot;en&quot;&gt;
-            &lt;head&gt;
-                &lt;meta charset=&quot;UTF-8&quot;&gt;
-                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-                &lt;title&gt;Document&lt;/title&gt;
-            &lt;/head&gt;
-            &lt;body&gt;
-        
-            &lt;/body&gt;
-        &lt;/html&gt;</pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+        &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
                     </article>
                     <article>
                         <h3 class="terminology-title" id="etiquetas">Etiquetas</h3>
@@ -153,7 +165,7 @@
                 <section class="section-content">
                     <h2 class="blog-subtitle" id="box-model">Modelo de Caja</h2>
                     <article>
-                        <h3 class="box-model-title">El modelo de caja está compuesto por:</h3>
+                        <h3 class="box-model-headline">El modelo de caja está compuesto por:</h3>
                         <p class="box-model-description">Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.</p>
                         <ol class="box-model-composition">
                             <li>Tamaño del del contenido / ancho y alto</li>
@@ -180,21 +192,65 @@
                             <li>padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
                         </ul>
                     </article>
+                </section>
+
+                <section class="section-content">
                     <article>
-                        <h3 class="box-model-title">Modelo de caja</h3>
-                        <img class="box-model-img" src="../assets/images/banner.png" alt="Imagen de Leonidas para explicar modelo de caja">
+                        <h3 class="box-model-headline slider-title">Modelo de caja</h3>
+                        <div class="slider">
+                            <scroll-container class="slider-container">
+                                <scroll-page class="slider-slide">
+                                    <iframe id="video-1" width="560" height="315" src="https://www.youtube.com/embed/5f5Ig_U2Bpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </scroll-page>
+                                <scroll-page class="slider-slide">
+                                    <iframe id="video-2" width="560" height="315" src="https://www.youtube.com/embed/g3RKFBbROjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </scroll-page>
+                                <scroll-page class="slider-slide">
+                                    <iframe id="video-3" width="560" height="315" src="https://www.youtube.com/embed/5eNWsNrZkBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </scroll-page>
+                            </scroll-container>
+                            <div class="slider-bullet-container">
+                                <a href="#video-1" class="slider-bullet"></a>
+                                <a href="#video-2" class="slider-bullet"></a>
+                                <a href="#video-3" class="slider-bullet"></a>
+                            </div>
+                        </div>
                     </article>
                 </section>
         
-                <p>Si tienes alguna pregunta, escríbeme a <a href="mailto:me@leonidasesteban.com">me@leonidasesteban.com</a></p>
+                <p class="text-email-address">Si tienes alguna pregunta, escríbeme a <a class="email-address" href="mailto:me@leonidasesteban.com">me@leonidasesteban.com</a></p>
+            
+                <div class="section-content">
+                    <h3 class="box-model-headline newsletter-form-title">Suscríbete a nuestro newsletter </h3>
+                    <form action="#" class="newsletter-form">
+                        <input type="text" name="person-name" id="person-name" placeholder="Nombre" required>
+                        <input type="email" name="email" id="#email" placeholder="Correo electrónico" required>
+                        <input type="submit" value="Suscribirme">
+                    </form>
+                </div>
             </div>
         </div>
     </main>   
     
+    <!-- Footer -->
     <!-- <footer>
         <p class="footer-text">&copy Leonidas Esteban 2021</p>
+        <div class="social-network-wrapper">
+            <div class="social-network-content">
+                <a class="social-network-item" href="https://www.instagram.com/leydimabelvh/?hl=es-la" target="_blank">
+                    <span class="iconify" data-icon="ant-design:instagram-filled" style="color: #FFFFFF;"></span>
+                </a>
+                <a class="social-network-item" href="https://www.facebook.com/leydimabel.velazco/" target="_blank">
+                    <span class="iconify" data-icon="ant-design:facebook-filled" style="color: #FFFFFF;"></span>
+                </a>
+                <a class="social-network-item" href="https://twitter.com/LeyVelazco" target="_blank">
+                    <span class="iconify" data-icon="ant-design:twitter-square-filled" style="color: #FFFFFF;"></span>
+                </a>
+            </div>
+        </div>
     </footer> -->
-    
+
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 
 
 </body>
