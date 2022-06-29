@@ -246,13 +246,15 @@ blockquote {
     max-width: 902px;
 }
 pre {
-    background-color: #FEC62E;
-    color: #000000;
+    background-color: var(--white20);
+    color: var(--gray20);
+    font-family: 'Roboto', sans-serif;
     padding: 40px;
     max-width: 902px;
-    max-height: 344px;
     font-size: 16px;
-    margin: 0px;;
+    margin: 0px;
+    border-radius: 8px;
+    overflow: auto;
 }
 
 /* Box Model */
