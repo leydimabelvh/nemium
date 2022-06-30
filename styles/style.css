@@ -183,6 +183,7 @@ details {
     margin-bottom: 0px;
 }  */
 blockquote {
+    margin:0px;
     margin-top: 32px;
     margin-bottom: 64px;
     padding-left: 16px;
