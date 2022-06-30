@@ -379,7 +379,7 @@ h3.box-model-headline::before {
 /* Footer */
 footer {
     background-color: var(--gray40);
-    /* margin-top: 56px; */
+    margin-top: 56px;
 }
 .footer-text {
     color: var(--white10);
