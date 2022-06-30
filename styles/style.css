@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    color: var(--gray40);
+    color: var(--gray20);
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
@@ -40,6 +40,7 @@ h3 {
 }
 p {
     font-size: 16px;
+    line-height: 24px;
 }
 hr {
     margin: 64px 0px;
@@ -54,12 +55,11 @@ div.hero {
     /* background-position: center; */
     /* background-size: cover; */
     height: 350px;
-    /* width: 100vw; */
+    width: 100%;
 }
 
 /* Header */
 .header-container {
-    background-color: teal;
     position: sticky;
     top: 0px;
     /* width: 30%; */
@@ -125,14 +125,16 @@ details {
     font-size: 60px;
     margin-top: 64px;
     margin-bottom: 16px;
+    color: var(--gray40);
 }
 .blog-description {
     font-size: 16px;
     margin-top: 16px;
     margin-bottom: 64px;
+    color: var(--gray40);
 }
 .blog-subtitle {
-    margin-top: 80px;
+    margin-top: 64px;
     margin-bottom: 40px;
 }
 
@@ -218,12 +220,13 @@ blockquote {
 }
 pre {
     background-color: #FEC62E;
+    font-family: 'Roboto', sans-serif;
     color: #000000;
     padding: 40px;
     max-width: 902px;
-    max-height: 344px;
     font-size: 16px;
-    margin: 0px;;
+    margin: 0px;
+    overflow: auto;
 }
 
 /* Box Model */
