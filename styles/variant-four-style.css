@@ -415,7 +415,7 @@ footer {
 }
 .footer-text {
     color: var(--white10);
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
     /* line-height: 38px; */
     padding: 48px 0px 0px 0px;
@@ -525,6 +525,11 @@ footer {
     .newsletter-form input[type="submit"] {
         width: 20%;
         margin-right: 0px;
+    }
+
+    /* Footer */
+    .footer-text {
+        font-size: 32px;
     }
 }
 
