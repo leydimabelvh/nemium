@@ -353,12 +353,36 @@ h3.box-model-headline::before {
 }
 
 /* Footer */
-.footer-text {
+footer {
     background-color: var(--white10);
+    margin-top: 56px;
+}
+.footer-text {
     color: var(--gray30);
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 38px;
+    /* line-height: 38px; */
+    padding: 48px 0px 0px 0px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 19px;
+}
+
+.social-network-wrapper {
+    margin-top: 19px;
+}
+.social-network-content {
+    text-align: center;
+    padding: 0px 0px 44px 0px; /*4 de a*/
+}
+.social-network-item {
+    display: inline-block;
+    text-decoration: none;
+}
+.social-network-item .iconify {
+    width: 18px;
+    height: 18px;
+    padding: 0px 9px;
 }
 
 /* Screen with min-width:1200px */
@@ -427,11 +451,17 @@ h3.box-model-headline::before {
     .blockquote-author {
         font-size: 24px;
     }
+
     /* Terminology */
     pre {
         font-size: 16px;
         padding: 40px;
         max-inline-size: 596px;
+    }
+
+    /* Footer */
+    .footer-text {
+        font-size: 32px;
     }
 }
 
@@ -485,5 +515,11 @@ h3.box-model-headline::before {
         font-size: 16px;
         padding: 30px;
         max-inline-size: 596px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .content {
+        display: none;
     }
 }
