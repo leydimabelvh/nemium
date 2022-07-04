@@ -254,6 +254,9 @@ h3.box-model-headline {
 h3.box-model-headline::before {
     content:none;    
 }
+h3.box-model-headline::after {
+    content:none;    
+}
 .box-model-title {
     margin-top: 40px;
     margin-bottom: 24px;;
