@@ -425,6 +425,24 @@ footer {
     .setup-img {
         width: initial;
     }
+
+    /* Form */
+    .newsletter-form {
+        width: 70%;
+    }
+    .newsletter-form input {
+        margin-right: 8px;
+    }
+    .newsletter-form input[type="text"] {
+        width: 40%;
+    }
+    .newsletter-form input[type="email"] {
+        width: 45%;
+    }
+    .newsletter-form input[type="submit"] {
+        width: 20%;
+        margin-right: 0px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
@@ -454,6 +472,24 @@ footer {
     /* .setup-img {
         width: 64px;
     } */
+
+     /* Form */
+     .newsletter-form {
+        width: 70%;
+    }
+    .newsletter-form input {
+        margin-right: 8px;
+    }
+    .newsletter-form input[type="text"] {
+        width: 40%;
+    }
+    .newsletter-form input[type="email"] {
+        width: 45%;
+    }
+    .newsletter-form input[type="submit"] {
+        width: 120px;
+        margin-right: 0px;
+    }
 }
 
 
