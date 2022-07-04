@@ -284,6 +284,9 @@ h3.box-model-headline::before {
     margin-bottom: 16px;
     color: var(--blue10);
 }
+.box-model-properties li::marker{
+    color: var(--white10);
+}
 
 /* Slider in box-model*/
 .slider {
