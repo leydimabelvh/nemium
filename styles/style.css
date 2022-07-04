@@ -65,26 +65,17 @@ div.hero {
 
 /* Header */
 .header-container {
-    position: sticky;
-    top: 0px;
-    /* width: 30%; */
+    color: var(--gray10);
 }
 .header-wrapper {
-    max-width: 208px;
+    max-width: 902px;
     margin: auto;
-    position: relative;
 }
 .header-content{
     padding: 0px 20px;
-    width: 208px;
-    position: absolute;
-    top: 0;
-    left: -577px;
-    /* left: -232px; add (232+42+303) */
-    /* left: 116px; */
 }
 
-/* Content */
+/* General content */
 header {
     font-size: 14px;
     color: var(--gray10);
@@ -93,23 +84,59 @@ header a {
     color: var(--gray10);
     text-decoration: none;
 }
-header a:hover {
-    color: var(--gray40);
+
+/* Variants of project */
+.variant-content {
+}
+.variant-title {
+    margin-top: 40px;
+    margin-bottom: 16px;
+    color: #808080;   ;
+    font-size: 14px;
+}
+header .variant-list a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    padding-left: 8px;
+    font-weight: 500;
+    
+}
+header .variant-list a:hover {
+    background-color: #000000;
+    color: var(--white10);
+}
+
+/* Content */
+.content {
+    position: sticky;
+    top: 0;
+}
+header .content-list a:hover {
+    color: var(--black30);
 }
 .content-title {
-    margin-top: 64px;
+    margin-top: 40px;
     margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--gray10);
 }
 details {
     margin-bottom: 24px;
 }
 .content-subtitle {
-    font-weight: 700;
     margin-bottom: 16px;
     line-height: 24px;
+    font-weight: 700;
 }
 .content-list li{
     margin-bottom: 16px;
+    color: var(--gray10);
+}
+.content-list li:hover{
+    color: var(--black30);
 }
 
 /* Main */
@@ -391,7 +418,7 @@ footer {
 }
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
     /* Global */
     h1 {
         font-size: 60px;
@@ -414,6 +441,40 @@ footer {
         height: 350px;
         background-position: initial;
         background-size: initial;
+    }
+
+    /* Header */
+    .header-container {
+        position: sticky;
+        top: 0px;
+        /* width: 30%; */
+    }
+    .header-wrapper {
+        max-width: 208px;
+        margin: auto;
+        position: relative;
+    }
+    .header-content{
+        padding: 0px 20px;
+        width: 208px;
+        position: absolute;
+        top: 0;
+        left: -577px;
+        /* left: -232px; add (232+42+303) */
+        /* left: 116px; */
+    }
+
+    /* Variants of project */
+    .variant-title {
+        margin-top: 64px;
+    }
+    header .variant-list a:hover {
+        max-width: 305px;
+    }
+
+    /* Content */
+    .content-title {
+        margin-top: 64px;
     }
 
     /* Blog introduction */
@@ -464,7 +525,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+@media screen and (min-width: 768px) and (max-width: 1399.98px) {
     /* Global */
     h1 {
         font-size: 50px;
