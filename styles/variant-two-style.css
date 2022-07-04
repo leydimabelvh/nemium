@@ -400,9 +400,13 @@ h3.box-model-headline::before {
         left: -440px; /*(208*2 = 416 + 24: margin)*/  /**/
     }
 
+    /* Variants of project */
+    .variant-title {
+        margin-block-start: 64px;
+    }
     /* Content */
     .content-title {
-        margin-block-start: 104px;
+        margin-block-start: 64px;
     }
 
     /* Blog introduction */
