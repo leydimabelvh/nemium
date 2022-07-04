@@ -8,6 +8,7 @@
     /* Variables del Proyecto */
 
     /* Color */
+    --black30: #000000;
     --black20: #42424233;
 
     --gray40: #212121;
@@ -304,6 +305,47 @@ h3.box-model-headline::before {
 }
 .slider-bullet:active {
     background-color: var(--gray20);
+}
+
+/*Questions to email*/
+.text-email-address {
+    color: var(--black30);
+    text-align: left;
+}
+.email-address {
+    color: var(--gray20);
+}
+
+/* Form */
+.newsletter-form-title {
+    text-align: left;
+}
+.newsletter-form {
+    text-align: left;
+    position: relative;
+}
+.newsletter-form input {
+    background-color: var(--white10);
+    color: var(--black30);
+    width: 100%;
+    border: 1px solid var(--gray10);
+    border-radius: 90px;
+    box-sizing: border-box;
+    padding: 12px 16px;;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+.newsletter-form ::-webkit-input-placeholder {
+    color: var(--gray10);
+}
+.newsletter-form input[type="submit"] {
+    color: var(--white10);
+    background-color: var(--black30);
+    border: 1px solid var(--black30);
+    font-weight: 500;
+    width: 120px;
+    position: absolute;
+    right: 0px;
 }
 
 /* Footer */
