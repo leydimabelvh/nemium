@@ -126,19 +126,20 @@ details {
 
 /* Blog introduction */
 .blog-title {
-    font-size: 60px;
-    margin-top: 64px;
+    font-size: 40px;
+    margin-top: 40px;
     margin-bottom: 16px;
     color: var(--gray40);
 }
 .blog-description {
     font-size: 16px;
     margin-top: 16px;
-    margin-bottom: 64px;
+    margin-bottom: 40px;
     color: var(--gray40);
 }
 .blog-subtitle {
-    margin-top: 64px;
+    font-size: 27px;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -403,6 +404,19 @@ footer {
     hr {
         margin: 64px 0px;
     }
+
+    /* Blog introduction */
+    .blog-title {
+        font-size: 60px; 
+        margin-top: 64px;
+    }
+    .blog-description {
+        margin-bottom: 64px;
+    }
+    .blog-subtitle {
+        font-size: 32px;
+        margin-top: 64px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
@@ -418,6 +432,14 @@ footer {
     }
     p {
         font-size: 16px;
+    }
+
+    /* Blog introduction */
+    .blog-title {
+        font-size: 50px; 
+    }
+    .blog-subtitle {
+        font-size: 30px;
     }
 }
 
