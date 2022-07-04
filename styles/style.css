@@ -173,6 +173,9 @@ details {
     margin-top: 40px;
     margin-bottom: 16px;
 } */
+.setup-img {
+    width: 64px;
+}
 .setup-title {
     margin-top: 16px;
     margin-bottom: 24px;;
@@ -417,6 +420,11 @@ footer {
         font-size: 32px;
         margin-top: 64px;
     }
+
+    /* Setup */
+    .setup-img {
+        width: initial;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
@@ -441,6 +449,11 @@ footer {
     .blog-subtitle {
         font-size: 30px;
     }
+
+    /* Setup */
+    /* .setup-img {
+        width: 64px;
+    } */
 }
 
 
