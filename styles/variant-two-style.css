@@ -341,6 +341,7 @@ h3.box-model-headline::before {
     padding-inline: 16px;
     padding-block: 12px;
     margin-block-end: 24px;
+    font-family: 'Nunito', sans-serif;
     font-size: 16px;
 }
 .newsletter-form ::-webkit-input-placeholder {
@@ -349,6 +350,7 @@ h3.box-model-headline::before {
 .newsletter-form input[type="submit"] {
     color: var(--white10);
     background-color: var(--blue10);
+    font-weight: 700;
     border: none;
 }
 
