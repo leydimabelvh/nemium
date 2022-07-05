@@ -274,11 +274,12 @@ pre {
     font-size: 24px;
     font-weight: 400;
     margin-top: 40px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 h3.box-model-headline {
     counter-reset: titleList;
+    padding-bottom: 0px;
 }
 h3.box-model-headline {
     counter-increment: titleList;
