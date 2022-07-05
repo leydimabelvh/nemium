@@ -369,7 +369,7 @@ h3.box-model-headline::before {
 
 /*Questions to email*/
 .text-email-address {
-    color: var(--black30);
+    /* color: var(--black30); */
     text-align: left;
 }
 .email-address {
