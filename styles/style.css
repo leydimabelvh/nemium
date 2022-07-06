@@ -547,6 +547,11 @@ footer {
         height: 210px;
     }
 
+    /* Variants of project */
+    header .variant-list a:hover {
+        max-width: 289px;
+    }
+
     /* Blog introduction */
     .blog-title {
         font-size: 50px; 
