@@ -412,7 +412,7 @@ footer {
     /* Header */
     .header-container {
         position: sticky; 
-        top:0px 
+        top:-44px; 
     }
     .header-wrapper {
         margin: auto;
@@ -423,12 +423,13 @@ footer {
         position: absolute;
         inline-size: 208px; 
         padding-inline: 0px;
+        top: 64px;
         left: -440px; /*(208*2 = 416 + 24: margin)*/  /**/
     }
 
     /* Variants of project */
     .variant-title {
-        margin-block-start: 64px;
+        margin-block-start: 0px;
     }
     /* Content */
     .content-title {
