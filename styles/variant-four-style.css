@@ -469,7 +469,7 @@ footer {
     /* Header */
     .header-container {
         position: sticky;
-        top: 0px;
+        top: -44px;
     }
     .header-wrapper {
         max-width: 208px;
@@ -478,13 +478,13 @@ footer {
     .header-content{
         width: 208px;
         position: absolute;
-        top: 0;
+        top: 64px;
         left: 566px; /*(232 + 42 + 282: random + 10:visual appearance calculation)*/
     }
 
     /* Variants of project */
     .variant-title {
-        margin-top: 64px;
+        margin-top: 0px;
     }
 
     /* Content */
