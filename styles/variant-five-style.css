@@ -407,7 +407,7 @@ footer {
     /* Header */
     .header-container {
         position: sticky;
-        top: 64px;
+        top: 20px;
         /* width: 30%; */
     }
     .header-wrapper {
