@@ -451,7 +451,7 @@ footer {
     /* Header */
     .header-container {
         position: sticky;
-        top: 0px;
+        top: -44px;
         /* width: 30%; */
     }
     .header-wrapper {
@@ -463,7 +463,7 @@ footer {
         padding: 0px 20px;
         width: 208px;
         position: absolute;
-        top: 0;
+        top: 64px;
         left: -577px;
         /* left: -232px; add (232+42+303) */
         /* left: 116px; */
@@ -471,7 +471,7 @@ footer {
 
     /* Variants of project */
     .variant-title {
-        margin-top: 64px;
+        margin-top: 0px;
     }
 
     /* Content */
